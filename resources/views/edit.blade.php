@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,7 +36,10 @@
         </div>
 
         <button type="submit" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-700">Actualizar Usuario</button>
+        <a href="{{ route('usuarios.index') }}" class="bg-gray-500 text-white p-2 rounded mt-4 hover:bg-gray-700">Volver</a>
+
     </form>
 </body>
 
 </html>
+
