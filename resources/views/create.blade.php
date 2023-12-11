@@ -32,10 +32,11 @@
                 required>
         </div>
 
-        <button type="submit" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-700">Guardar</button>
+        <button type="submit" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-700 m-2">Guardar</button>
+        <a href="{{ route('usuarios.index') }}" class="bg-gray-500 text-white p-2 rounded mt-2 hover:bg-gray-700">Volver</a>
+
     </form>
 
-    <a href="{{ route('usuarios.index') }}" class="bg-gray-500 text-white p-2 rounded mt-2 hover:bg-gray-700">Volver</a>
 </body>
 
 </html>
